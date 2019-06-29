@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_noangular",
+  "version": "1.0.0",
+  "description": "My portfolio without angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/blackCherry/portfolio_noangular.git"
+  },
+  "author": "Blessing Ntoko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/blackCherry/portfolio_noangular/issues"
+  },
+  "homepage": "https://gitlab.com/blackCherry/portfolio_noangular#readme"
+}

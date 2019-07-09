@@ -16,7 +16,7 @@
                 Hi There!
             </span><br><br>
             <p>
-                I am Blessing Ntoko. I am a Front-end developer and budding UI/UX Designer.
+                I am <span id="myName">Blessing Ntoko</span>.<br> I am a Front-end developer and budding UI/UX Designer.
             </p>
         </div>
     </div>
@@ -62,8 +62,12 @@
             </span>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-    <script src="javascript/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+            console.warn('particles.json loaded...');
+        })
+    </script>
 </body>
 
 </html>

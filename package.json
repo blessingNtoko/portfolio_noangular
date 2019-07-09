@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://gitlab.com/blackCherry/portfolio_noangular/issues"
   },
-  "homepage": "https://gitlab.com/blackCherry/portfolio_noangular#readme"
+  "homepage": "https://gitlab.com/blackCherry/portfolio_noangular#readme",
+  "dependencies": {}
 }

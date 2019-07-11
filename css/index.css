@@ -25,7 +25,7 @@ html {
 
 .pimg1 {
     background-color: #252934;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .pimg2 {
@@ -66,14 +66,66 @@ html {
     background-color: transparent;
 }
 
+#myName {
+    color: rgb(190, 32, 58);
+}
+
+.infoOnMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picMe {
+    width: 30%;
+    height: 30%;
+}
+
+.infoContain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.myToys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.favouriteToys-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-content: space-between;
+}
+
+.favouriteToys-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-content: space-between;
+}
+
+.toy {
+    width: 15%;
+    height: 15%;
+}
+
 @media(max-width: 560px) {
     .pimg1,
     .pimg2,
     .pimg3 {
         background-attachment: scroll;
     }
-}
-
-#myName {
-    color: rgb(190, 32, 58);
+    .infoContain {
+        flex-direction: column;
+    }
 }

@@ -43,6 +43,7 @@ html {
     padding: 50px 80px;
     background: #bbbbbb;
     color: #222;
+    height: 100vh;
 }
 
 .ptext {
@@ -75,6 +76,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
 .picMe {
@@ -84,11 +86,9 @@ html {
 
 .infoContain {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;
 }
 
 .myToys {
@@ -96,27 +96,12 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-}
-
-.favouriteToys-1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    align-content: space-between;
-}
-
-.favouriteToys-2 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 .toy {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
 }
 
 @media(max-width: 560px) {
@@ -124,8 +109,5 @@ html {
     .pimg2,
     .pimg3 {
         background-attachment: scroll;
-    }
-    .infoContain {
-        flex-direction: column;
     }
 }

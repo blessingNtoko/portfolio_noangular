@@ -50,10 +50,18 @@
     </div>
     <section class="section section-dark">
         <h2>Contact</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sapiente tempora, suscipit eaque delectus illo ad itaque ut ex dolorum est ea fugit quos, consequatur consectetur rerum sint consequuntur! Deserunt rerum quos cumque excepturi provident
-            nam nihil debitis vero temporibus vel inventore nemo perspiciatis maxime quis repudiandae culpa architecto magnam, ullam iste cupiditate illo voluptatum? Vitae labore libero expedita delectus quibusdam. Sapiente est natus deleniti pariatur
-            nemo? Vero sit laboriosam, unde perspiciatis ipsum id, natus distinctio exercitationem quas maxime inventore velit, voluptas dolor officia. Ad accusamus ducimus aliquid. Optio deleniti aperiam eaque, nulla dolorum minus corrupti aliquid debitis
-            blanditiis in.</p>
+        <p>Feel free to say hello, I am itching to chat.</p><br /><br />
+        <form onsubmit="validate()">
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" required>
+                <label for="email">Email</label>
+                <input type="text" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="mess" cols="30" rows="10" required></textarea>
+                <input type="button" onclick="onSubmit()" value="Touch me senpai!!">
+            </fieldset>
+        </form>
     </section>
     <div class="pimg1">
         <div class="ptext">
@@ -68,6 +76,7 @@
             console.warn('particles.json loaded...');
         })
     </script>
+    <script src="javascript/index.js"></script>
 </body>
 
 </html>

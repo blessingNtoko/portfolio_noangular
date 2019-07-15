@@ -104,6 +104,33 @@ html {
     height: 10%;
 }
 
+.works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#works1 {
+    width: 50%;
+    height: 50%;
+    opacity: 0.7;
+}
+
+#works2 {
+    width: 50%;
+    height: 50%;
+    opacity: 0.7;
+}
+
+#works1:hover {
+    opacity: 1;
+}
+
+#works2:hover {
+    opacity: 1;
+}
+
 @media(max-width: 560px) {
     .pimg1,
     .pimg2,

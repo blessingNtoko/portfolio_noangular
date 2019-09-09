@@ -51,15 +51,15 @@
     <section class="section section-dark">
         <h2>Contact</h2>
         <p>Feel free to say hello, I am itching to chat.</p><br /><br />
-        <form onsubmit="validate()">
-            <fieldset>
-                <label for="name">Name</label>
-                <input type="text" required>
-                <label for="email">Email</label>
-                <input type="text" required>
-                <label for="message">Message</label>
-                <textarea name="message" id="mess" cols="30" rows="10" required></textarea>
-                <input type="button" onclick="onSubmit()" value="Touch me senpai!!">
+        <form id="contactForm" class="formOfContact">
+            <fieldset class="formField">
+                <label for="formName">Name</label>
+                <input type="text" id="formName" required>
+                <label for="formEmail">Email</label>
+                <input type="text" id="formEmail" required>
+                <label for="formMess">Message</label>
+                <textarea name="message" id="formMess" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Touch me senpai!!">
             </fieldset>
         </form>
     </section>

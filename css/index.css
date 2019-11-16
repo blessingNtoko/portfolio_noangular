@@ -157,6 +157,56 @@ html {
     opacity: 1;
 }
 
+.formOfContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 50%;
+    height: 30em;
+    margin-left: 27em;
+    margin-top: 12em;
+}
+
+.formField {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 9em;
+    border: 1px solid black;
+    width: 70%;
+    line-height: .5em;
+}
+
+.inputs {
+    margin-left: 23%;
+    width: 25em;
+}
+
+
+/* .contactSection {
+    text-align: center;
+} */
+
+#submit {
+    width: 10em;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: .5em auto;
+    transition: all .3s;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white
+}
+
 @media(max-width: 560px) {
     .pimg1,
     .pimg2,

@@ -16,16 +16,5 @@ function onSubmit(e) {
 
     console.log('[Contact Form]>>>>', formContact);
 
-    const xhr = new XMLHttpRequest();
-
-    let urlEncodedData = '';
-    let urlEncodedDataPairs = [];
-    let name;
-
-    // Turn data object into anm array of URL-encoded key/value pairs.
-    for (name in formContact) {
-
-    }
-
     contactForm.reset();
 }

@@ -18,8 +18,7 @@ function onSubmit(e) {
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://localhost:4177');
-    xhr.setRequestHeader("Content-type", "application/json");
-    xhr.send(JSON.stringify(formContact));
+    xhr.send(formContact);
 
     contactForm.reset();
 }

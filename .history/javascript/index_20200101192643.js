@@ -17,8 +17,8 @@ function onSubmit(e) {
     console.log('[Contact Form]>>>>', JSON.stringify(formContact));
 
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:4177');
-    xhr.send(JSON.stringify(formContact));
+    // xhr.open('POST', 'http://localhost:4177');
+    // xhr.send(JSON.stringify(formContact));
 
     contactForm.reset();
 }

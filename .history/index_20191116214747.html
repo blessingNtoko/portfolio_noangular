@@ -67,12 +67,11 @@
         <h2>Contact</h2>
         <form id="contactForm" class="formOfContact">
             <p>Feel free to say hello, I am itching to chat.</p>
-            <input type="text" id="formName" placeholder="Name" class="inputs" required>
-            <br />
-            <input type="text" id="formEmail" placeholder="Email" class="inputs" required>
-            <br />
-            <textarea name="message" id="formMess" cols="30" rows="10" class="inputs" placeholder="Message" required></textarea>
-            <br />
+            <fieldset class="formField">
+                <input type="text" id="formName" placeholder="Name" class="inputs" required>
+                <input type="text" id="formEmail" placeholder="Email" class="inputs" required>
+                <textarea name="message" id="formMess" cols="30" rows="10" class="inputs" placeholder="Message" required></textarea>
+            </fieldset>
             <input type="submit" id="submit" value="Submit">
         </form>
     </section>

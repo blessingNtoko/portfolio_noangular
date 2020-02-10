@@ -19,9 +19,9 @@ function onSubmit(e) {
     const base64 = btoa(toJSON);
 
     const xhr = new XMLHttpRequest();
-    // xhr.open('POST', 'http://localhost:4177');
-    // xhr.setRequestHeader("Content-type", "application/json");
-    // xhr.send(base64);
+    xhr.open('POST', 'http://localhost:4177');
+    xhr.setRequestHeader("Content-type", "application/json");
+    xhr.send(base64);
 
     contactForm.reset();
 }

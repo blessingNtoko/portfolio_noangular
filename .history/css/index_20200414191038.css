@@ -60,9 +60,9 @@ html {
 
 .ptext {
     position: absolute;
-    top: 26rem;
+    top: 40%;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     color: white;
     font-size: 27px;
     letter-spacing: 8px;

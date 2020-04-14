@@ -59,8 +59,9 @@ html {
 }
 
 .ptext {
-    position: absolute;
-    top: 26rem;
+    /* position: absolute; */
+    /* top: 40%; */
+    margin-top: 30rem;
     width: 100%;
     text-align: center;
     color: white;

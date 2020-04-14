@@ -16,7 +16,7 @@ function onSubmit(e) {
 
     const toJSON = JSON.stringify(formContact);
     console.log('[Contact Form]>>>>', toJSON);
-    const base64 = btoa(toJSON);
+    const base64 = toJSON;
 
     const xhr = new XMLHttpRequest();
     xhr.open('POST', 'http://localhost:4177');
